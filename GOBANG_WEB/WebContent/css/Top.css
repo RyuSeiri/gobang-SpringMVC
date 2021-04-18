@@ -1,0 +1,40 @@
+﻿@charset "utf-8";
+
+.Container {
+    border:1px solid;
+    margin: auto;
+    position: relative;
+    background-color: #e7e7e7;
+    width: 75%;
+    height: 100%;
+}
+
+#inputboxContainer {
+    margin: 10% auto;
+    position: relative;
+    height: 50%;
+    width: 100%;
+}
+
+    #inputboxContainer > div {
+        height: 33.3%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+.button {
+    background-color: #7f7f7f;
+    color: #ffffff;
+    font-size:30px;
+    width: 50%;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-shadow:3px 5px 3px 1px #555555;
+    user-select:none;
+    -moz-user-select:none;
+    cursor:pointer;
+}

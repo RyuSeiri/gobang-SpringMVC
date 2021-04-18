@@ -1,0 +1,158 @@
+﻿@charset "utf-8";
+
+
+.Container {
+    border:1px solid;
+    margin: auto;
+    position: relative;
+    background-color: #e7e7e7;
+    width: 75%;
+    height: 100%;
+}
+
+#headerContainer {
+    position: relative;
+    margin: 0;
+    width: 100%;
+}
+
+.middleContainer {
+    margin: 1% 0 0 0;
+    position: relative;
+    height: 66%;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#resultTitle {
+    height: 15%;
+    width:100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size:25px;
+}
+
+.resultContainer{
+    overflow-y:auto;
+    overflow-x:hidden;
+    width:100%;
+    height:85%;
+} 
+
+.resultBox{
+width:80%;
+height:100%;
+border-radius: 5px;
+border:4px solid #b3a2c7;
+}
+.resultLine{
+    position:relative;
+    padding:15px;
+    width:100%;
+    height:10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.people{
+padding: 10px;
+width:35%;
+height:100%;
+border-radius: 10px;
+background-color:rgb(170, 170, 170);
+color:#ffffff;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+font-size:20px;
+}
+
+.plus{
+    position: relative;
+    left:5%;
+    width:50px;
+    height: 50px;
+    color: rgb(170, 170, 170);
+    transition: color .25s;
+    /* border: 1px solid; */
+    
+}
+
+.plus::before{
+    content: '';
+    position: absolute;
+    left: 80%; top: 50%;
+    width: 50px;
+    margin-left: -40px;
+    margin-top: -5px; 
+    border-top: 10px solid;
+    cursor: pointer;
+}
+.plus::after{
+    content: '';
+    position: absolute;
+    left: 52%;
+    top: 80%;
+    height: 50px;
+    margin-left: -5px;
+    margin-top: -40px;
+    border-left: 10px solid;
+    cursor: pointer;
+}
+
+
+.bottonContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    width: 100%;
+}
+
+#messageBox{
+    position: relative;
+    width: 40%;
+    height:35%;
+    border-radius: 5px;
+    border:4px solid #b3a2c7;
+
+}
+#SearchButton {
+    position: relative;
+    width: 8%;
+    left:1%;
+    height: 32%;
+    background-color: #376092;
+    color: #ffffff;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    -moz-user-select: none;
+}
+
+#backButton {
+    position: relative;
+    right:1%;
+    width: 6%;
+    height: 32%;
+    background-color: #376092;
+    color: #ffffff;
+    border-top-left-radius:  100%;
+    border-bottom-left-radius:  100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    -moz-user-select: none;
+}
+

@@ -1,0 +1,129 @@
+﻿@charset "utf-8";
+
+.Container {
+    border:1px solid;
+    margin: auto;
+    position: relative;
+    background-color: #e7e7e7;
+    width: 75%;
+    height: 100%;
+}
+
+#headerContainer {
+    position: relative;
+    margin: 0;
+    width: 100%;
+}
+
+#inputboxContainer {
+    margin: 8% 0 0 0;
+    position: relative;
+    height: 50%;
+    width: 100%;
+}
+
+.line {
+    margin: 0;
+    height: 33.3%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+    
+.lastLine {
+    margin: 0;
+    height: 33.3%;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+}
+
+.lable {
+    margin: 0;
+    position: relative;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+    height: 100%;
+}
+
+.inputContainer {
+    margin: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 50%;
+    height: 100%;
+}
+
+.input {
+    margin: 0;
+    position: relative;
+    left: 5%;
+    width: 50%;
+    height: 35%;
+}
+
+.validateCodeContainer {
+    margin: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 50%;
+    height: 100%;
+}
+
+
+#validateCodeImg {
+    position:relative;
+    cursor:pointer;
+    left:10%;
+    width: 5em;
+    height: 3em;
+}
+
+#bottonContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    width: 100%;
+}
+
+#loginButton {
+    position: relative;
+    right: 5%;
+    width: 12%;
+    height: 40%;
+    background-color: #376092;
+    color: #ffffff;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    -moz-user-select: none;
+}
+
+#backButton {
+    position: relative;
+    left: 5%;
+    width: 12%;
+    height: 40%;
+    background-color: #376092;
+    color: #ffffff;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    -moz-user-select: none;
+}
